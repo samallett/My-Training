@@ -50,7 +50,7 @@ server <- function(input, output, session) {
       decision = decision_fun(diffs)
     )
   })
-  
+   
   # Simulated power
   output$power_text <- renderText({
     df <- sims()
